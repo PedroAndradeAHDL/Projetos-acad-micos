@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="256cm" height="102cm" viewBox="-2202 -868 5103 2023" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-2200" y="-846.686" width="5100" height="2000"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2200" y="-846.686" width="5100" height="2000"/>
+    <rect style="fill: #ffffff" x="-2200" y="-866.686" width="389" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2200" y="-866.686" width="389" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2198" y="-851.686">br/edu/unifei/ecot12/finalproject/xogunatotokugawa</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="132" y="-120" width="279.5" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="132" y="-120" width="279.5" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="271.75" y="-104">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="271.75" y="-85">Edo_Society</text>
+    <rect style="fill: #ffffff" x="132" y="-76" width="279.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="132" y="-76" width="279.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="-62">-politicalDomination: static String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="-46">-governance: static String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="-30">-name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="-14">-birth: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="2">-death: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="18">-politicalInfluecne: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="34">-socialInfluence: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="50">-religion: static Religion</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="135" y="66">-politicalReputation: String</text>
+    <rect style="fill: #ffffff" x="132" y="72" width="279.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="132" y="72" width="279.5" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="112.665" y="377.25" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="112.665" y="377.25" width="318" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="271.665" y="396.25">Emperor</text>
+    <rect style="fill: #ffffff" x="112.665" y="405.25" width="318" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="112.665" y="405.25" width="318" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="419.25">-dynasty: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="435.25">-imperialHouse: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="451.25">-emperor: static Emperor</text>
+    <rect style="fill: #ffffff" x="112.665" y="457.25" width="318" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="112.665" y="457.25" width="318" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="471.25">-Emperor()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="487.25">+getEmperor(): static Emperor</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="115.665" y="503.25">+politicalAction(action:String): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-395.458" y="380" width="225.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-395.458" y="380" width="225.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-282.658" y="399">Court_Nobility</text>
+    <rect style="fill: #ffffff" x="-395.458" y="408" width="225.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-395.458" y="408" width="225.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-392.458" y="422">-relationshipEmperor: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-392.458" y="438">-residence: String</text>
+    <rect style="fill: #ffffff" x="-395.458" y="444" width="225.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-395.458" y="444" width="225.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-640" y="380" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-640" y="380" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-561.85" y="399">Daimyo</text>
+    <rect style="fill: #ffffff" x="-640" y="408" width="156.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-640" y="408" width="156.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-637" y="422">-clan: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-637" y="438">-territory: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-637" y="454">-castleName: String</text>
+    <rect style="fill: #ffffff" x="-640" y="460" width="156.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-640" y="460" width="156.3" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1403.44" y="380" width="194.8" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1403.44" y="380" width="194.8" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-1306.04" y="396">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1306.04" y="415">Four_Classes</text>
+    <rect style="fill: #ffffff" x="-1403.44" y="424" width="194.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1403.44" y="424" width="194.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1400.44" y="438">-localReputation: String</text>
+    <rect style="fill: #ffffff" x="-1403.44" y="444" width="194.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1403.44" y="444" width="194.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1720" y="560" width="140.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1720" y="560" width="140.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1649.55" y="579">Samurai</text>
+    <rect style="fill: #ffffff" x="-1720" y="588" width="140.9" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1720" y="588" width="140.9" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1717" y="602">-rank: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1717" y="618">-clan: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1717" y="634">-bushido: boolean</text>
+    <rect style="fill: #ffffff" x="-1720" y="640" width="140.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1720" y="640" width="140.9" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1080" y="560" width="233.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1080" y="560" width="233.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-963.35" y="579">Peasants</text>
+    <rect style="fill: #ffffff" x="-1080" y="588" width="233.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1080" y="588" width="233.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1077" y="602">-monthlyContribution: boolean</text>
+    <rect style="fill: #ffffff" x="-1080" y="608" width="233.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1080" y="608" width="233.3" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1260" y="560" width="117.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1260" y="560" width="117.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1201.1" y="579">Artisans</text>
+    <rect style="fill: #ffffff" x="-1260" y="588" width="117.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1260" y="588" width="117.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1257" y="602">-style: String</text>
+    <rect style="fill: #ffffff" x="-1260" y="608" width="117.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1260" y="608" width="117.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1460" y="560" width="117.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1460" y="560" width="117.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1401.1" y="579">Merchants</text>
+    <rect style="fill: #ffffff" x="-1460" y="588" width="117.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1460" y="588" width="117.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1457" y="602">-goods: String</text>
+    <rect style="fill: #ffffff" x="-1460" y="608" width="117.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1460" y="608" width="117.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1500" y="-680" width="187.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1500" y="-680" width="187.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1593.55" y="-664">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1593.55" y="-645">Religion</text>
+    <rect style="fill: #ffffff" x="1500" y="-636" width="187.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1500" y="-636" width="187.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1503" y="-622">-sacredText: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1503" y="-606">-sacredSymbol: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1503" y="-590">-entityFollowed: String</text>
+    <rect style="fill: #ffffff" x="1500" y="-584" width="187.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1500" y="-584" width="187.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1503" y="-570">+clone(): Religion</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1279.05" y="-475.02" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1279.05" y="-475.02" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1353.35" y="-456.02">Christianity</text>
+    <rect style="fill: #ffffff" x="1279.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1279.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: #ffffff" x="1279.05" y="-439.02" width="148.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1279.05" y="-439.02" width="148.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1282.05" y="-425.02">+clone(): Religion</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1519.05" y="-475.02" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1519.05" y="-475.02" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1593.35" y="-456.02">Buddhism</text>
+    <rect style="fill: #ffffff" x="1519.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1519.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: #ffffff" x="1519.05" y="-439.02" width="148.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1519.05" y="-439.02" width="148.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.05" y="-425.02">+clone(): Religion</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1799.05" y="-475.02" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1799.05" y="-475.02" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1873.35" y="-456.02">Shintoism</text>
+    <rect style="fill: #ffffff" x="1799.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1799.05" y="-447.02" width="148.6" height="8"/>
+    <rect style="fill: #ffffff" x="1799.05" y="-439.02" width="148.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1799.05" y="-439.02" width="148.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1802.05" y="-425.02">+clone(): Religion</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1707" y="-87.7111" width="111.25" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1707" y="-87.7111" width="111.25" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-1651.38" y="-71.7111">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1651.38" y="-52.7111">Untouchable</text>
+    <rect style="fill: #ffffff" x="-1707" y="-43.7111" width="111.25" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1707" y="-43.7111" width="111.25" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1704" y="-29.7111">-name: String</text>
+    <rect style="fill: #ffffff" x="-1707" y="-23.7111" width="111.25" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1707" y="-23.7111" width="111.25" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1868.08" y="40.834" width="76.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1868.08" y="40.834" width="76.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1829.83" y="59.834">Slayers</text>
+    <rect style="fill: #ffffff" x="-1868.08" y="68.834" width="76.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1868.08" y="68.834" width="76.5" height="8"/>
+    <rect style="fill: #ffffff" x="-1868.08" y="76.834" width="76.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1868.08" y="76.834" width="76.5" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-2040" y="40.834" width="90.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2040" y="40.834" width="90.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1994.8" y="59.834">Butchers</text>
+    <rect style="fill: #ffffff" x="-2040" y="68.834" width="90.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2040" y="68.834" width="90.4" height="8"/>
+    <rect style="fill: #ffffff" x="-2040" y="76.834" width="90.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2040" y="76.834" width="90.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1714.33" y="40.834" width="126.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1714.33" y="40.834" width="126.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1650.93" y="59.834">Executioners</text>
+    <rect style="fill: #ffffff" x="-1714.33" y="68.834" width="126.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1714.33" y="68.834" width="126.8" height="8"/>
+    <rect style="fill: #ffffff" x="-1714.33" y="76.834" width="126.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1714.33" y="76.834" width="126.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1529" y="39.917" width="169.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1529" y="39.917" width="169.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1444.05" y="58.917">Funeral_Directors</text>
+    <rect style="fill: #ffffff" x="-1529" y="67.917" width="169.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1529" y="67.917" width="169.9" height="8"/>
+    <rect style="fill: #ffffff" x="-1529" y="75.917" width="169.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1529" y="75.917" width="169.9" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1300" y="40.834" width="82.75" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1300" y="40.834" width="82.75" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1258.63" y="59.834">Tanners</text>
+    <rect style="fill: #ffffff" x="-1300" y="68.834" width="82.75" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1300" y="68.834" width="82.75" height="8"/>
+    <rect style="fill: #ffffff" x="-1300" y="76.834" width="82.75" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1300" y="76.834" width="82.75" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="365.502" y="729.342" width="140.9" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="365.502" y="729.342" width="140.9" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="435.952" y="745.342">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="435.952" y="764.342">Structures</text>
+    <rect style="fill: #ffffff" x="365.502" y="773.342" width="140.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="365.502" y="773.342" width="140.9" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="368.502" y="787.342">-name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="368.502" y="803.342">-location: String</text>
+    <rect style="fill: #ffffff" x="365.502" y="809.342" width="140.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="365.502" y="809.342" width="140.9" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="260" y="900" width="79.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="900" width="79.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="299.65" y="919">Castle</text>
+    <rect style="fill: #ffffff" x="260" y="928" width="79.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="928" width="79.3" height="8"/>
+    <rect style="fill: #ffffff" x="260" y="936" width="79.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="936" width="79.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="263" y="950">#Castle()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="395.758" y="900" width="79.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="395.758" y="900" width="79.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="435.408" y="919">Temple</text>
+    <rect style="fill: #ffffff" x="395.758" y="928" width="79.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="395.758" y="928" width="79.3" height="8"/>
+    <rect style="fill: #ffffff" x="395.758" y="936" width="79.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="395.758" y="936" width="79.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.758" y="950">#Temple()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="520" y="900" width="79.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520" y="900" width="79.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="559.65" y="919">Garden</text>
+    <rect style="fill: #ffffff" x="520" y="928" width="79.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520" y="928" width="79.3" height="8"/>
+    <rect style="fill: #ffffff" x="520" y="936" width="79.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="520" y="936" width="79.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523" y="950">#Garden()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2280" y="-680" width="217.9" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2280" y="-680" width="217.9" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2388.95" y="-664">&lt;&lt;Interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2388.95" y="-645">Freedom</text>
+    <rect style="fill: #ffffff" x="2280" y="-636" width="217.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2280" y="-636" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="2280" y="-628" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2280" y="-628" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2283" y="-614">+turnOver(r:Religion): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2440" y="-538.91" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2440" y="-538.91" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2548.95" y="-519.91">Accepted</text>
+    <rect style="fill: #ffffff" x="2440" y="-510.91" width="217.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2440" y="-510.91" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="2440" y="-502.91" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2440" y="-502.91" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2443" y="-488.91">+turnOver(r:Religion): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2140" y="-538.91" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2140" y="-538.91" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2248.95" y="-519.91">Restricted</text>
+    <rect style="fill: #ffffff" x="2140" y="-510.91" width="217.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2140" y="-510.91" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="2140" y="-502.91" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2140" y="-502.91" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2143" y="-488.91">+turnOver(r:Religion): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="863" y="-420" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="863" y="-420" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="971.95" y="-401">Sakoku</text>
+    <rect style="fill: #ffffff" x="863" y="-392" width="217.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="863" y="-392" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="863" y="-384" width="217.9" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="863" y="-384" width="217.9" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="866" y="-370">+toggleChristianity(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="866" y="-354">+toggleBuddhism(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="866" y="-338">+toggleShintoism(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="174" y="-695.02" width="196.85" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="174" y="-695.02" width="196.85" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="272.425" y="-676.02">Xogunato_Tokugawa</text>
+    <rect style="fill: #ffffff" x="174" y="-667.02" width="196.85" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="174" y="-667.02" width="196.85" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="177" y="-653.02">-startPeriod: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="177" y="-637.02">-endPeriod: Calendar</text>
+    <rect style="fill: #ffffff" x="174" y="-631.02" width="196.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="174" y="-631.02" width="196.85" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="812.768" y="-711.836" width="318" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="812.768" y="-711.836" width="318" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="971.768" y="-695.836">&lt;&lt;Abstract&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="971.768" y="-676.836">Social_Policy</text>
+    <rect style="fill: #ffffff" x="812.768" y="-667.836" width="318" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="812.768" y="-667.836" width="318" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-653.836">-objective: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-637.836">-startPeriod: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-621.836">-shogunatoName: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-605.836">-endPeriod: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-589.836">-foreignTrade: boolean</text>
+    <rect style="fill: #ffffff" x="812.768" y="-583.836" width="318" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="812.768" y="-583.836" width="318" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-569.836">+&lt;&lt;Abstract&gt;&gt; toggleChristianity(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-553.836">+&lt;&lt;Abstract&gt;&gt; toggleBuddhism(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="815.768" y="-537.836">+&lt;&lt;Abstract&gt;&gt; toggleShintoism(): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.85,-657.02 587.809,-657.02 587.809,-657.836 806.063,-657.836 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="793.415,-652.836 809.415,-657.836 793.415,-662.836 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1155.94,-657.836 1314.88,-657.836 1314.88,-658 1495.53,-658 "/>
+    <polygon style="fill: #ffffff" points="1130.77,-657.836 1144.77,-662.636 1158.77,-657.836 1144.77,-653.036 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1130.77,-657.836 1144.77,-662.636 1158.77,-657.836 1144.77,-653.036 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1481.76,-650 1497.76,-658 1481.76,-666 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1316.88" y="-660.918"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1162.77" y="-660.836"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1480" y="-661"> religion</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1480" y="-645">3</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1712.27,-658 1702.1,-658 2264,-658 2275.53,-658 "/>
+    <polygon style="fill: #000000" points="1687.1,-658 1701.1,-662.8 1715.1,-658 1701.1,-653.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1687.1,-658 1701.1,-662.8 1715.1,-658 1701.1,-653.2 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2261.76,-650 2277.76,-658 2261.76,-666 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1983.05" y="-661"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1719.1" y="-661"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="2260" y="-661"> freedom</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="2260" y="-645">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2388.95,-589.764 2388.95,-565.455 2248.95,-565.455 2248.95,-538.91 "/>
+    <polygon style="fill: #ffffff" points="2396.95,-589.764 2388.95,-605.764 2380.95,-589.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2396.95,-589.764 2388.95,-605.764 2380.95,-589.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2388.95,-589.764 2388.95,-565.455 2548.95,-565.455 2548.95,-538.91 "/>
+    <polygon style="fill: #ffffff" points="2396.95,-589.764 2388.95,-605.764 2380.95,-589.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2396.95,-589.764 2388.95,-605.764 2380.95,-589.764 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="2120,-455.02 2364.7,-455.02 2376.7,-443.02 2376.7,-421.02 2120,-421.02 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2120,-455.02 2364.7,-455.02 2376.7,-443.02 2376.7,-421.02 2120,-421.02 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="2364.7,-455.02 2364.7,-443.02 2376.7,-443.02 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2127" y="-430.12">
+      <tspan x="2127" y="-430.12">r.setFreedom(new Restricted());</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="2428.32,-455.02 2657.62,-455.02 2669.62,-443.02 2669.62,-421.02 2428.32,-421.02 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2428.32,-455.02 2657.62,-455.02 2669.62,-443.02 2669.62,-421.02 2428.32,-421.02 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="2657.62,-455.02 2657.62,-443.02 2669.62,-443.02 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2435.32" y="-430.12">
+      <tspan x="2435.32" y="-430.12">r.setFreedom(new Accepted());</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1593.55,-545.764 1593.55,-511.51 1593.35,-511.51 1593.35,-475.02 "/>
+    <polygon style="fill: #ffffff" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1593.55,-545.764 1593.55,-511.51 1873.35,-511.51 1873.35,-475.02 "/>
+    <polygon style="fill: #ffffff" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1593.55,-545.764 1593.55,-511.51 1353.35,-511.51 1353.35,-475.02 "/>
+    <polygon style="fill: #ffffff" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1601.55,-545.764 1593.55,-561.764 1585.55,-545.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="640" y="380" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="380" width="318" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="799" y="399">Xogum</text>
+    <rect style="fill: #ffffff" x="640" y="408" width="318" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="408" width="318" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="422">-family: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="438">-reignStart: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="454">-reignEnd: Calendar</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="470">-xogum: static Xogum</text>
+    <rect style="fill: #ffffff" x="640" y="476" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="476" width="318" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="490">-Xogum(): static Xogum</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="506">+politicalAction(action:String): boolean</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="272.425,-623.02 272.425,-375.51 271.75,-375.51 271.75,-126.705 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="266.75,-139.353 271.75,-123.353 276.75,-139.353 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-80,415.244 41.5,415.244 53.5,427.244 53.5,449.244 -80,449.244 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-80,415.244 41.5,415.244 53.5,427.244 53.5,449.244 -80,449.244 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="41.5,415.244 41.5,427.244 53.5,427.244 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73" y="440.144">
+      <tspan x="-73" y="440.144">return emperor;</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1020,420 1126.1,420 1138.1,432 1138.1,454 1020,454 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1020,420 1126.1,420 1138.1,432 1138.1,454 1020,454 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="1126.1,420 1126.1,432 1138.1,432 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1027" y="444.9">
+      <tspan x="1027" y="444.9">return xogum;</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-261.414" y="32.0046" width="371.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-261.414" y="32.0046" width="371.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-75.464" y="51.0046">ImperialPalace</text>
+    <rect style="fill: #ffffff" x="-261.414" y="60.0046" width="371.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-261.414" y="60.0046" width="371.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-258.414" y="74.0046">-location: String</text>
+    <rect style="fill: #ffffff" x="-261.414" y="80.0046" width="371.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-261.414" y="80.0046" width="371.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-258.414" y="94.0046">+requestPoliticalAction(action:String): boolean</text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1000,500 1329.4,500 1341.4,512 1341.4,598 1000,598 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1000,500 1329.4,500 1341.4,512 1341.4,598 1000,598 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="1329.4,500 1329.4,512 1341.4,512 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1007" y="524.9">
+      <tspan x="1007" y="524.9">Random decision = new Random();</tspan>
+      <tspan x="1007" y="540.9">int finalDecision = decision.nextInt(100);</tspan>
+      <tspan x="1007" y="556.9">if(finalDecision &lt; 42)</tspan>
+      <tspan x="1007" y="572.9">return true</tspan>
+      <tspan x="1007" y="588.9">else return false;</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-75.464,125.176 -75.464,220 112.665,220 112.665,372.778 "/>
+    <polygon style="fill: #ffffff" points="-75.464,100.005 -70.664,114.005 -75.464,128.005 -80.264,114.005 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-75.464,100.005 -70.664,114.005 -75.464,128.005 -80.264,114.005 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="104.665,359.014 112.665,375.014 120.665,359.014 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="18.6003" y="217"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-64.464" y="112.005"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123.665" y="357.25"> emperor</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123.665" y="373.25">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.75,98.2361 271.75,236.625 271.665,236.625 271.665,377.25 "/>
+    <polygon style="fill: #ffffff" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.75,98.2361 271.75,238 799,238 799,380 "/>
+    <polygon style="fill: #ffffff" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.75,98.2361 271.75,238 -561.85,238 -561.85,380 "/>
+    <polygon style="fill: #ffffff" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="53.5" y1="449.244" x2="112.665" y2="483.25"/>
+    <ellipse style="fill: #ffffff" cx="106.596" cy="479.762" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="106.596" cy="479.762" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="106.665" y="483.25"></text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-160,540 130.9,540 142.9,552 142.9,574 -160,574 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-160,540 130.9,540 142.9,552 142.9,574 -160,574 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="130.9,540 130.9,552 142.9,552 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-153" y="564.9">
+      <tspan x="-153" y="564.9">return xogum.politicalAction(action);</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="142.9" y1="540" x2="112.665" y2="499.25"/>
+    <ellipse style="fill: #ffffff" cx="116.836" cy="504.872" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="116.836" cy="504.872" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="106.665" y="499.25"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="478.898" y="11.3127" width="418.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="478.898" y="11.3127" width="418.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="687.948" y="27.3127">&lt;&lt;Interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="687.948" y="46.3127">SupremeGovernance</text>
+    <rect style="fill: #ffffff" x="478.898" y="55.3127" width="418.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="478.898" y="55.3127" width="418.1" height="8"/>
+    <rect style="fill: #ffffff" x="478.898" y="63.3127" width="418.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="478.898" y="63.3127" width="418.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="481.898" y="77.3127">+&lt;&lt;Abstract&gt;&gt; politicalAction(action:String): boolean</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1020" y1="454" x2="958" y2="486"/>
+    <ellipse style="fill: #ffffff" cx="964.22" cy="482.789" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="964.22" cy="482.789" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952" y="486"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1000" y1="500" x2="958" y2="502"/>
+    <ellipse style="fill: #ffffff" cx="964.992" cy="501.667" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="964.992" cy="501.667" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952" y="502"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="455.836,447.25 534.327,447.25 534.327,446 634.518,446 "/>
+    <polygon style="fill: #ffffff" points="430.665,447.25 444.665,442.45 458.665,447.25 444.665,452.05 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.665,447.25 444.665,442.45 458.665,447.25 444.665,452.05 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="620.754,454 636.754,446 620.754,438 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="536.327" y="443.625"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="462.665" y="444.25"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="618.99" y="443"> xogum</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="618.99" y="459">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.75,98.2361 271.75,238 -282.658,238 -282.658,380 "/>
+    <polygon style="fill: #ffffff" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-812.836" y="74.6706" width="140.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-812.836" y="74.6706" width="140.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-742.386" y="93.6706">Fief</text>
+    <rect style="fill: #ffffff" x="-812.836" y="102.671" width="140.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-812.836" y="102.671" width="140.9" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-809.836" y="116.671">-location: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-809.836" y="132.671">-name: String</text>
+    <rect style="fill: #ffffff" x="-812.836" y="138.671" width="140.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-812.836" y="138.671" width="140.9" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-742.386,147.651 -742.386,340 -640,340 -640,373.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-645,360.647 -640,376.647 -635,360.647 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-742.386,146.671 -742.386,349.335 -963.35,349.335 -963.35,553.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-968.35,540.647 -963.35,556.647 -958.35,540.647 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1306.04,470.236 -1306.04,514 -1201.1,514 -1201.1,560 "/>
+    <polygon style="fill: #ffffff" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1306.04,470.236 -1306.04,514 -1401.1,514 -1401.1,560 "/>
+    <polygon style="fill: #ffffff" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1306.04,470.236 -1306.04,514 -1080,514 -1080,560 "/>
+    <polygon style="fill: #ffffff" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.75,98.2361 271.75,238 -1306.04,238 -1306.04,380 "/>
+    <polygon style="fill: #ffffff" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.75,98.2361 271.75,82.2361 263.75,98.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1651.38,2.52501 -1651.38,20.5615 -1650.93,20.5615 -1650.93,40.834 "/>
+    <polygon style="fill: #ffffff" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1651.38,2.52501 -1651.38,20.5615 -1829.83,20.5615 -1829.83,40.834 "/>
+    <polygon style="fill: #ffffff" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1651.38,3.53405 -1651.38,20.5632 -1994.8,20.5632 -1994.8,39.8284 "/>
+    <polygon style="fill: #ffffff" points="-1643.38,3.53405 -1651.38,-12.466 -1659.38,3.53405 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1643.38,3.53405 -1651.38,-12.466 -1659.38,3.53405 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1651.38,3.53405 -1651.38,20.6075 -1444.05,20.6075 -1444.05,39.917 "/>
+    <polygon style="fill: #ffffff" points="-1643.38,3.53405 -1651.38,-12.466 -1659.38,3.53405 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1643.38,3.53405 -1651.38,-12.466 -1659.38,3.53405 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1651.38,2.52501 -1651.38,20.5615 -1258.63,20.5615 -1258.63,40.834 "/>
+    <polygon style="fill: #ffffff" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1643.38,2.52501 -1651.38,-13.475 -1659.38,2.52501 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="132,-66 -724.375,-66 -724.375,-65.7111 -1591.28,-65.7111 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1577.51,-73.7111 -1593.51,-65.7111 -1577.51,-57.7111 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-722.375" y="-68.8555"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="128" y="-69"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1575.75" y="-68.7111"> untouchabdle</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1575.75" y="-52.7111">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1649.55,648 -1649.55,669 -561.85,669 -561.85,472.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-553.85,486.236 -561.85,470.236 -569.85,486.236 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-1105.7" y="666"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1645.55" y="660"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-550.85" y="480"> daimyoLord</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-550.85" y="496">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1306.04,470.236 -1306.04,514 -1649.55,514 -1649.55,560 "/>
+    <polygon style="fill: #ffffff" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-1298.04,470.236 -1306.04,454.236 -1314.04,470.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.952,835.578 435.952,866.671 299.65,866.671 299.65,900 "/>
+    <polygon style="fill: #ffffff" points="443.952,835.578 435.952,819.578 427.952,835.578 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.952,835.578 435.952,819.578 427.952,835.578 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.952,836.584 435.952,867.174 435.408,867.174 435.408,900 "/>
+    <polygon style="fill: #ffffff" points="443.952,836.584 435.952,820.584 427.952,836.584 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.952,836.584 435.952,820.584 427.952,836.584 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.952,835.578 435.952,866.671 559.65,866.671 559.65,900 "/>
+    <polygon style="fill: #ffffff" points="443.952,835.578 435.952,819.578 427.952,835.578 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.952,835.578 435.952,819.578 427.952,835.578 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-380" y="724" width="194.8" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-380" y="724" width="194.8" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-282.6" y="740">&lt;&lt;Interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-282.6" y="759">Constructors</text>
+    <rect style="fill: #ffffff" x="-380" y="768" width="194.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-380" y="768" width="194.8" height="8"/>
+    <rect style="fill: #ffffff" x="-380" y="776" width="194.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-380" y="776" width="194.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-377" y="790">+construct(): Structures</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-384.756" y="900" width="209.15" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-384.756" y="900" width="209.15" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-280.181" y="919">ReligiousConstructors</text>
+    <rect style="fill: #ffffff" x="-384.756" y="928" width="209.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-384.756" y="928" width="209.15" height="8"/>
+    <rect style="fill: #ffffff" x="-384.756" y="936" width="209.15" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-384.756" y="936" width="209.15" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-381.756" y="950">+construct(): Structures</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-680" y="900" width="194.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-680" y="900" width="194.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-582.6" y="919">RoyalConstructors</text>
+    <rect style="fill: #ffffff" x="-680" y="928" width="194.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-680" y="928" width="194.8" height="8"/>
+    <rect style="fill: #ffffff" x="-680" y="936" width="194.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-680" y="936" width="194.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-677" y="950">+construct(): Structures</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-40" y="900" width="194.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="900" width="194.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="57.4" y="919">Botanicals</text>
+    <rect style="fill: #ffffff" x="-40" y="928" width="194.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="928" width="194.8" height="8"/>
+    <rect style="fill: #ffffff" x="-40" y="936" width="194.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="936" width="194.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-37" y="950">+construct(): Structures</text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-667.778,979.292 -507.778,979.292 -495.778,991.292 -495.778,1013.29 -667.778,1013.29 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-667.778,979.292 -507.778,979.292 -495.778,991.292 -495.778,1013.29 -667.778,1013.29 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="-507.778,979.292 -507.778,991.292 -495.778,991.292 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-660.778" y="1004.19">
+      <tspan x="-660.778" y="1004.19">return new Castle();</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-367.35,980 -207.35,980 -195.35,992 -195.35,1014 -367.35,1014 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-367.35,980 -207.35,980 -195.35,992 -195.35,1014 -367.35,1014 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="-207.35,980 -207.35,992 -195.35,992 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-360.35" y="1004.9">
+      <tspan x="-360.35" y="1004.9">return new Temple();</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-27.9804,980 132.02,980 144.02,992 144.02,1014 -27.9804,1014 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-27.9804,980 132.02,980 144.02,992 144.02,1014 -27.9804,1014 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="132.02,980 132.02,992 144.02,992 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-20.9804" y="1004.9">
+      <tspan x="-20.9804" y="1004.9">return New garden();</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-282.6,814.236 -282.6,855.497 -280.181,855.497 -280.181,898.993 "/>
+    <polygon style="fill: #ffffff" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-282.6,814.236 -282.6,856 57.4,856 57.4,900 "/>
+    <polygon style="fill: #ffffff" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-282.6,814.236 -282.6,856 -582.6,856 -582.6,900 "/>
+    <polygon style="fill: #ffffff" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-274.6,814.236 -282.6,798.236 -290.6,814.236 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="58.0196" y1="980" x2="57.4" y2="956"/>
+    <ellipse style="fill: #ffffff" cx="57.5807" cy="962.998" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="57.5807" cy="962.998" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="51.4" y="956"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-281.35" y1="980" x2="-280.182" y2="956"/>
+    <ellipse style="fill: #ffffff" cx="-280.522" cy="962.992" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-280.522" cy="962.992" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-286.182" y="956"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-581.778" y1="979.292" x2="-582.6" y2="956"/>
+    <ellipse style="fill: #ffffff" cx="-582.353" cy="962.996" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-582.353" cy="962.996" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-588.6" y="956"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-483.7,493.172 -483.7,673.262 -282.6,673.262 -282.6,719.528 "/>
+    <polygon style="fill: #ffffff" points="-483.7,468 -478.9,482 -483.7,496 -488.5,482 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-483.7,468 -478.9,482 -483.7,496 -488.5,482 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-290.6,705.764 -282.6,721.764 -274.6,705.764 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-383.15" y="670.262"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-472.7" y="480"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-271.6" y="704"> constructors</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-271.6" y="720">3</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2248.36" y1="-455.02" x2="2248.96" y2="-482.91"/>
+    <ellipse style="fill: #ffffff" cx="2248.81" cy="-475.912" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2248.81" cy="-475.912" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2242.96" y="-482.91"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2548.98" y1="-455.02" x2="2548.96" y2="-482.91"/>
+    <ellipse style="fill: #ffffff" cx="2548.97" cy="-475.91" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2548.97" cy="-475.91" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2542.96" y="-482.91"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="687.948,101.549 687.948,300 799,300 799,380 "/>
+    <polygon style="fill: #ffffff" points="695.948,101.549 687.948,85.5488 679.948,101.549 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="695.948,101.549 687.948,85.5488 679.948,101.549 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="687.948,101.549 687.948,300 271.664,300 271.664,377.25 "/>
+    <polygon style="fill: #ffffff" points="695.948,101.549 687.948,85.5488 679.948,101.549 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="695.948,101.549 687.948,85.5488 679.948,101.549 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="971.768,-512.594 971.768,-467.415 971.95,-467.415 971.95,-420 "/>
+    <polygon style="fill: #ffffff" points="979.768,-512.594 971.768,-528.594 963.768,-512.594 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="979.768,-512.594 971.768,-528.594 963.768,-512.594 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="348,-464 846.8,-464 858.8,-452 858.8,-430 348,-430 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="348,-464 846.8,-464 858.8,-452 858.8,-430 348,-430 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="846.8,-464 846.8,-452 858.8,-452 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="355" y="-439.1">
+      <tspan x="355" y="-439.1">getChristianity().getFreedom().turnOver(this.getChristianity());</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1280,-360 1640.2,-360 1652.2,-348 1652.2,-230 1280,-230 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1280,-360 1640.2,-360 1652.2,-348 1652.2,-230 1280,-230 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="1640.2,-360 1640.2,-348 1652.2,-348 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1287" y="-335.1">
+      <tspan x="1287" y="-335.1">Religion r = new Christianity(); </tspan>
+      <tspan x="1287" y="-319.1">r.setSacredText(this.getSacredText());</tspan>
+      <tspan x="1287" y="-303.1">r.setSacredSymbol(this.getSacredSymbol());</tspan>
+      <tspan x="1287" y="-287.1">r.setEntityFollowed(this.getEntityFollowed());</tspan>
+      <tspan x="1287" y="-271.1">		</tspan>
+      <tspan x="1287" y="-255.1">		</tspan>
+      <tspan x="1287" y="-239.1">return r;</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1660,-160 2020.2,-160 2032.2,-148 2032.2,-30 1660,-30 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1660,-160 2020.2,-160 2032.2,-148 2032.2,-30 1660,-30 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="2020.2,-160 2020.2,-148 2032.2,-148 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1667" y="-135.1">
+      <tspan x="1667" y="-135.1">Religion r = new Buddhism(); </tspan>
+      <tspan x="1667" y="-119.1">r.setSacredText(this.getSacredText());</tspan>
+      <tspan x="1667" y="-103.1">r.setSacredSymbol(this.getSacredSymbol());</tspan>
+      <tspan x="1667" y="-87.1">r.setEntityFollowed(this.getEntityFollowed());</tspan>
+      <tspan x="1667" y="-71.1">		</tspan>
+      <tspan x="1667" y="-55.1">		</tspan>
+      <tspan x="1667" y="-39.1">return r;</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1940,-340 2300.2,-340 2312.2,-328 2312.2,-210 1940,-210 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1940,-340 2300.2,-340 2312.2,-328 2312.2,-210 1940,-210 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="2300.2,-340 2300.2,-328 2312.2,-328 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1947" y="-315.1">
+      <tspan x="1947" y="-315.1">Religion r = new Shintoism(); </tspan>
+      <tspan x="1947" y="-299.1">r.setSacredText(this.getSacredText());</tspan>
+      <tspan x="1947" y="-283.1">r.setSacredSymbol(this.getSacredSymbol());</tspan>
+      <tspan x="1947" y="-267.1">r.setEntityFollowed(this.getEntityFollowed());</tspan>
+      <tspan x="1947" y="-251.1">		</tspan>
+      <tspan x="1947" y="-235.1">		</tspan>
+      <tspan x="1947" y="-219.1">return r;</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1280" y1="-360" x2="1353.35" y2="-419.02"/>
+    <ellipse style="fill: #ffffff" cx="1347.9" cy="-414.632" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1347.9" cy="-414.632" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1347.35" y="-419.02"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1846.1" y1="-160" x2="1667.65" y2="-419.02"/>
+    <ellipse style="fill: #ffffff" cx="1671.63" cy="-413.256" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1671.63" cy="-413.256" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1661.65" y="-419.02"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2126.1" y1="-340" x2="1947.65" y2="-419.02"/>
+    <ellipse style="fill: #ffffff" cx="1954.05" cy="-416.186" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1954.05" cy="-416.186" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1941.65" y="-419.02"></text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="340,-400 777.2,-400 789.2,-388 789.2,-366 340,-366 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="340,-400 777.2,-400 789.2,-388 789.2,-366 340,-366 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="777.2,-400 777.2,-388 789.2,-388 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="347" y="-375.1">
+      <tspan x="347" y="-375.1">getBuddhism().getFreedom().turnOver(this.getBuddhism());</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="320,-340 772.6,-340 784.6,-328 784.6,-306 320,-306 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="320,-340 772.6,-340 784.6,-328 784.6,-306 320,-306 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="772.6,-340 772.6,-328 784.6,-328 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="327" y="-315.1">
+      <tspan x="327" y="-315.1">getShintoism().getFreedom().turnOver(this.getShintoism());</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="858.8" y1="-447" x2="863" y2="-374"/>
+    <ellipse style="fill: #ffffff" cx="862.598" cy="-380.988" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="862.598" cy="-380.988" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="857" y="-374"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="789.2" y1="-383" x2="863" y2="-358"/>
+    <ellipse style="fill: #ffffff" cx="856.37" cy="-360.246" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="856.37" cy="-360.246" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="857" y="-358"></text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="784.6" y1="-323" x2="863" y2="-342"/>
+    <ellipse style="fill: #ffffff" cx="856.197" cy="-340.351" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="856.197" cy="-340.351" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="857" y="-342"></text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-620,20 -313.7,20 -301.7,32 -301.7,54 -620,54 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-620,20 -313.7,20 -301.7,32 -301.7,54 -620,54 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="-313.7,20 -313.7,32 -301.7,32 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-613" y="44.9">
+      <tspan x="-613" y="44.9">return emperor.politicalAction(action);</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-301.7" y1="37" x2="-261.414" y2="70.0046"/>
+    <ellipse style="fill: #ffffff" cx="-266.829" cy="65.5684" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-266.829" cy="65.5684" rx="7" ry="7"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-267.414" y="70.0046"></text>
+  </g>
+</svg>
