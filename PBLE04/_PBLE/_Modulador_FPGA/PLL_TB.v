@@ -1,0 +1,35 @@
+`timescale 1ns/1ps
+module PLL_TB();
+//o modulo novo se chama pll
+
+	reg clk;
+	reg rst;
+	wire clk50khz;
+	wire clk1_6khz;
+	wire clk100khz;
+
+	PLL PLL_DUT
+	(
+		.clk(clk),
+		.rst(rst),
+		.clk50khz(clk50khz),
+		.clk1_6khz(clk1_6khz),
+		.clk100khz(clk100khz)
+	);
+	
+	initial
+		begin
+			clk = 0;
+			rst = 1;
+			
+			#5 rst = 0;
+			#5 rst = 1;
+			
+			#400000 $finish;
+		end
+		
+		//clock de 50M
+		always #10 clk = ~clk;
+
+
+endmodule 

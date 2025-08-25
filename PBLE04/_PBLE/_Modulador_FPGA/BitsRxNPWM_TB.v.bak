@@ -1,0 +1,29 @@
+`timescale 1ns/1ps
+module BitsRxNPWM_TB();
+
+	reg clk16;
+	reg clk160;
+	reg rst;
+	reg data;
+	
+	
+	initial	
+		begin
+			clk16 = 0;
+			clk160 = 0;
+			data = 0;
+			rst = 1;
+			
+			#2 rst = 0;
+			#2 rst = 1;
+			
+			#20000000;
+			$finish;
+		end
+		
+		always #312500 clk16 = ~clk16;
+		always #31250 clk160 = ~clk160;
+		
+		always #300000 data = ~data;
+
+endmodule 

@@ -1,0 +1,70 @@
+module LUT_Access
+(
+	input clk,
+	input rst,
+	
+	output wire [14:0] out_a,
+	output wire [14:0] out_b,
+	output reg [10:0] address_b	//	somente o b precisa ser monitorado
+);
+	//	geração do clock interno
+	reg [14:0] cnt_clk;
+	reg in_clk;
+	reg [10:0] address_a;
+	
+//	instancia da ROM
+	CosLookUpTable	CosLookUpTable_inst 
+		(
+			.address_a(address_a),
+			.address_b(address_b),
+			
+			.clock(clk),
+			
+			.q_a(out_a),
+			.q_b(out_b)
+		);
+	
+	
+	//	gera o clock interno
+	always@(posedge clk or negedge rst)
+		begin
+			if(!rst)
+				begin
+					in_clk <= 0;
+					cnt_clk <= 0;
+				end
+			else	
+				begin
+					cnt_clk <= cnt_clk + 1;
+					
+					if(cnt_clk == 24999) 
+						begin
+							in_clk <= ~in_clk;
+							cnt_clk <= 0;
+						end
+				end
+		end
+		
+		
+
+	//	incrementa os endereços
+	 always@(posedge in_clk or negedge rst)
+		begin
+			if(!rst) 
+				begin
+					address_a <= 1100;
+					address_b <= 1100;
+				end
+			else
+				begin
+					address_a <= address_a + 1;
+					address_b <= address_b + 2;
+					
+					if(address_a == 2000) address_a <= 0;
+				end
+		end
+		
+		
+
+
+endmodule 

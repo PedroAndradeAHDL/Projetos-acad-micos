@@ -1,0 +1,89 @@
+module _Data_Sampler
+(
+	input clk,
+	input rst,
+	input Data,
+	
+	output reg [7:0] sampler,
+	output reg CS,
+	output reg [3:0] countSamp,
+	
+	output reg [7:0] countCtrl,
+	output reg StartConv
+);
+
+	//reg CS;					//controle de CS
+	//reg [7:0] sampler; 	//registro de dados temporarios
+	//reg [3:0] countSamp;	//contador de controle de conversao
+	
+	//reg [7:0] countCtrl;	//contador de controle de frequencia de taxa de amostragem = 200Hz
+	//reg StartConv;		//flag de controle de conversao
+	
+	
+	//always de controle: contador 
+	always@(posedge clk or negedge rst)
+		begin
+			if(~rst)
+				begin
+					countCtrl <= 0;
+					StartConv <= 1;	//reset em nivel alto
+				end else
+						begin							
+							//se bate o tempo do periodo de 5ms, reseta o contador e habilita a conversao
+							if(countCtrl == 249)
+								begin
+									countCtrl <= 0;
+									StartConv <= 0;
+								end else	
+										begin
+											//quando a conversoa terminar, 10 ciclos de clock, desabilita a conversao 
+											if(countCtrl == 7) 
+												begin
+													StartConv <= 1;
+													countCtrl <= countCtrl + 1;
+												end
+											//incrementa
+											else	countCtrl <= countCtrl + 1;
+										end
+						end
+		end
+		
+		
+	
+	always@(posedge clk or negedge StartConv or negedge rst)
+		begin
+			if(~rst)
+				begin
+					CS <= 1;			//coloca CS em nivel alto=desabilita conversor
+					sampler <= 0;	//zera o registro de controle
+					countSamp <= 0;//zera o contador de controle
+				end else
+						begin
+							if(~StartConv)
+								begin
+									if(countSamp == 0) 
+										begin
+											CS <= 0;
+											countSamp <= countSamp + 1;
+										end
+									else
+										begin
+											countSamp <= countSamp + 1;
+											sampler <= (sampler << 1) | Data;
+										end
+								end
+									else
+										//se StartConv for desabilitado, zera o contador e desabilita CS
+										begin
+											countSamp <= 0;
+											CS <= 1;
+											sampler <= 0;
+											//nao preciso zerar o contador, a interacaoo natural desse always
+											//com o outro fara isso naturalmente
+											//depois disso, sampler contera o valor dos 8 bits mais significativos do 
+											//MCP3002 referente ao sinal convertido
+										end
+						end
+		end
+
+endmodule 

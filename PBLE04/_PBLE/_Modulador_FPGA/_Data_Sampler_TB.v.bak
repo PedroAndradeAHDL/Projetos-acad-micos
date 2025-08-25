@@ -1,0 +1,86 @@
+`timescale 1us/1ns
+module _Data_Sampler_TB();
+
+	reg clk;
+	reg clk2;
+	reg rst;
+	reg Data;
+	
+	wire [7:0] sampler;
+	wire CS;
+	wire [3:0] countSamp;
+	
+	wire [7:0] countCtrl;
+	wire StartConv;
+	
+	wire BASK;
+
+	_Data_Sampler _Data_Sampler_DUT
+		(
+			.clk(clk),
+			.rst(rst),
+			.Data(Data),
+			.sampler(sampler),
+			.CS(CS),
+			.countSamp(countSamp),
+			.countCtrl(countCtrl),
+			.StartConv(StartConv)
+		);
+		
+	_BASK_PWM_Out _BASK_PWM_Out_DUT
+		(
+			.clk(clk2),
+			.rst(rst),
+			.sampler(sampler),
+			.out(BASK)
+		);
+	
+	
+	initial	
+		begin
+			//reset
+			rst = 1;
+			clk = 0;
+			clk2 = 0;
+			#1 rst = 0;
+			#1 rst = 1;
+			
+			Data = 1;
+			
+			//a conversao começa em
+			#4940;
+			Data = 0;
+			#20;
+			Data = 0; //bit 7
+			#20;
+			Data = 1; //bit 6
+			#20;
+			Data = 1; //bit 5
+			#20;
+			Data = 1; //bit 4
+			#20;
+			Data = 0; //bit 3
+			#20;
+			Data = 0; //bit 2
+			#20;
+			Data = 1; //bit 1
+			#20;
+			Data = 0; //bit 0
+			#20; // end
+			
+			#10000;
+			$finish;
+			
+			//11001000 o que se espera ver no registro no fianal
+		end
+	
+	//50KHz
+	always #10 clk = ~clk;
+	
+	//204KHz
+	always #2.45 clk2 = ~clk2;
+
+	
+
+
+endmodule 

@@ -1,0 +1,64 @@
+module PWM_Gen
+(
+	input clk,
+	input rst,
+	input [14:0] DutyCycle_A,
+	input [14:0] DutyCycle_B,
+	input [10:0] addr,
+	
+	output reg PWM_Pin_Cos_01,
+	output reg PWM_Pin_Cos_02
+);
+
+	reg [14:0] cnt_cos_01;
+	reg [14:0] cnt_cos_02;
+	
+	wire [14:0] DutyCycle_Cos_02;
+	
+	//	ajusta intervalo e fase
+	assign DutyCycle_Cos_02 = (addr <= 999) ? ((DutyCycle_B - 1042) : (DutyCycle_B + 1042);
+		
+	
+	//	gera um BASK de um cosseno de frequencia 1hz, fase 0 e A=1
+	always @(posedge clk or negedge rst)
+	begin
+		if (!rst)
+			begin
+				cnt_cos_01 <= 0;
+				PWM_Pin_Cos_01 <= 0;
+			end
+			else
+				begin
+					if(cnt_cos_01 < DutyCycle_A) PWM_Pin_Cos_01 <= 1;
+					else PWM_Pin_Cos_01 <= 0;
+
+					cnt_cos_01 <= cnt_cos_01 + 1;
+
+					if(cnt_cos_01 >= 24999) cnt_cos_01 <= 0;
+				end
+	end
+	
+	
+	
+	
+	//	gera um BASK de um cosseno de frequencia 2hz, fase 0 e A=1
+	always @(posedge clk or negedge rst)
+	begin
+		if (!rst)
+			begin
+				cnt_cos_02 <= 0;
+				PWM_Pin_Cos_02 <= 0;
+			end
+			else
+				begin					
+					if(cnt_cos_02 < DutyCycle_Cos_02) PWM_Pin_Cos_02 <= 1;
+					else PWM_Pin_Cos_02 <= 0;
+
+					cnt_cos_02 <= cnt_cos_02 + 2;
+
+					if(cnt_cos_02 >= 24999) cnt_cos_02 <= 0;
+				end
+	end
+	
+
+endmodule

@@ -1,0 +1,52 @@
+`timescale 1ns/1ps
+module _Modulador_FPGA_TB();
+
+	reg clk;
+	reg rst;
+	
+	//reg [10:0] addr;
+	
+	wire PWM_Pin_Cos_01;
+	wire PWM_Pin_Cos_02;
+	
+	wire [14:0] DutyCycle_A;
+	wire [14:0] DutyCycle_B;
+	
+	_Modulador_FPGA DUT
+		(
+			.clk(clk),
+			.rst(rst),
+			
+			.PWM_Pin_Cos_01(PWM_Pin_Cos_01),
+			.PWM_Pin_Cos_02(PWM_Pin_Cos_02),
+			
+			.DutyCycle_A(DutyCycle_A),
+			.DutyCycle_B(DutyCycle_B)
+		);
+	
+	
+	initial	
+		begin
+			rst = 1;
+			
+			#2;
+			
+			rst = 0;
+			
+			#2;
+			
+			rst = 1;
+			clk = 0;
+			
+			#10000000 $finish;
+			
+			//$init_signal_spy("/DUT/LUT_Access_DUT/addr", "/_Modulador_FPGA_TB/addr", 1);
+		end
+	
+		
+		//	50mhz
+		always #10 clk = ~clk;
+		
+
+
+endmodule 

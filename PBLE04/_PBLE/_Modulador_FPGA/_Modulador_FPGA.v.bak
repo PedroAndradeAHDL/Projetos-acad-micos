@@ -1,0 +1,41 @@
+module _Modulador_FPGA
+(
+	input clk,
+	input rst,
+	
+	output wire PWM_Pin_Cos_01,
+	output wire PWM_Pin_Cos_02,
+	
+	output wire [14:0] DutyCycle_A,
+	output wire [14:0] DutyCycle_B
+);
+
+	//wire [14:0] DutyCycle_A;
+	//wire [14:0] DutyCycle_B;
+	wire [10:0] addr;
+
+	LUT_Access LUT_Access_DUT
+		(
+			.clk(clk),
+			.rst(rst),
+			
+			.out_a(DutyCycle_A),
+			.out_b(DutyCycle_B),
+			.address_b(addr)
+		);
+		
+		
+		
+	PWM_Gen PWM_Gen_DUT
+		(
+			.clk(clk),
+			.rst(rst),
+			.DutyCycle_A(DutyCycle_A),
+			.DutyCycle_B(DutyCycle_B),
+			.addr(addr),
+			
+			.PWM_Pin_Cos_01(PWM_Pin_Cos_01),
+			.PWM_Pin_Cos_02(PWM_Pin_Cos_02)
+		);
+
+endmodule 

@@ -1,0 +1,21 @@
+PWM -> Pino 2
+BASK_Pin -> Pino 4
+CS -> Pino 6
+CLK_50k -> Pino 8
+FinalRX -> Pino 10      //saida do bask modulado em PWM, saida final do projeto
+_4ASK_Pin -> Pino 14
+
+Leitura A/D DataMCP3002 -> Pino 1
+Leitura BASK demodulado DataBASKDem -> Pino 3
+
+
+5v -> Pino 11
+3.3v -> Pino 29
+GND -> Pino 12
+
+
+Saídas 4ASK em ordem decrescente:
+40
+38
+36
+34

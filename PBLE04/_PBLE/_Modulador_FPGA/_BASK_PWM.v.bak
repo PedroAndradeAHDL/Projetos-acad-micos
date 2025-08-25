@@ -1,0 +1,30 @@
+module _BASK_PWM
+(
+	input clk,		//a frequencia deve ser de 204khz vinda de pll
+	input rst,
+	input [7:0] sampler,		//vem direto do shift register do sata sampler
+	
+	output reg out
+);
+
+	reg [9:0] cnt;
+	
+	always@(posedge clk or negedge rst)
+		begin
+			if(~rst)
+				begin
+					//zera tudo
+					cnt <= 0;
+					out <= 0;
+				end else
+						begin
+							if(cnt < sampler) out <= 1;
+							else out <= 0;
+
+							cnt <= cnt + 1;
+
+							if(cnt >= 1020) cnt <= 0;
+						end
+		end
+
+endmodule 

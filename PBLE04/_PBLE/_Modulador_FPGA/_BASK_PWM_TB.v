@@ -1,0 +1,69 @@
+`timescale 10ns/10ps
+module _BASK_PWM_TB();
+
+	reg clk100khz;
+	reg clk1_6khz;
+	reg rst;
+	reg [7:0] sampler;
+	reg Allow;
+	
+	reg [7:0] tmp2;
+	reg [7:0] tmp;
+	reg [3:0] ctrl;
+	
+	wire BASK;
+	
+	_BASK_PWM _BASK_PWM_DUT
+		(
+			.clk100khz(clk100khz),
+			.clk1_6khz(clk1_6khz),
+			.rst(rst),
+			.sampler(sampler),
+			.Allow(Allow),
+			.BASK(BASK)
+		);
+		
+		
+		initial
+			begin
+				$init_signal_spy("/_BASK_PWM_DUT/tmp2", "/_BASK_PWM_TB/tmp2", 1);
+				$init_signal_spy("/_BASK_PWM_DUT/tmp", "/_BASK_PWM_TB/tmp", 1);
+				$init_signal_spy("/_BASK_PWM_DUT/ctrl", "/_BASK_PWM_TB/ctrl", 1);
+
+				
+				clk100khz = 0;
+				clk1_6khz = 0;
+				rst = 1;
+				sampler = 8'b00001111;
+				Allow = 1;
+				
+				#5 rst = 0;
+				#5 rst  =1;
+				
+				#800000000 $finish;
+			end
+
+			
+			always #500 clk100khz = ~clk100khz;
+			always #31250 clk1_6khz = ~clk1_6khz;
+			//always #50000000 Allow = ~Allow;
+			//always #1600000 Allow = ~Allow;
+			
+			initial 
+				begin
+					 forever 
+						 begin
+							  Allow = 1;
+							  #500000;
+							  Allow = 0;
+							  #16000;
+						 end
+				end
+
+				
+				
+			always@(posedge Allow)
+				begin
+					sampler <= sampler + 5;
+				end
+endmodule 
