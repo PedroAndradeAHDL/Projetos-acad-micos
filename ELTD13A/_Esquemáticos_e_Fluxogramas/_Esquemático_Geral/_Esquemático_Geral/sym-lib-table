@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "_User")(type "Legacy")(uri "${KIPRJMOD}/bp.lib")(options "")(descr ""))
+)

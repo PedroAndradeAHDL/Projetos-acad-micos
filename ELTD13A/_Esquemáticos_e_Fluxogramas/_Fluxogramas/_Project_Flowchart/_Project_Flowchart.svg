@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="55cm" height="32cm" viewBox="418 142 1095 635" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="952.889" y="160.371" width="560" height="615.786"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="952.889" y="160.371" width="560" height="615.786"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1232.89" y="472.164">
+      <tspan x="1232.89" y="472.164"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 473.857 220 L 743.143,220 L 797,467.778 L 743.143,715.556 L 473.857,715.556 L 420,467.778 L 473.857,220z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 473.857 220 L 743.143,220 L 797,467.778 L 743.143,715.556 L 473.857,715.556 L 420,467.778 L 473.857,220"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="608.5" y="471.778">
+      <tspan x="608.5" y="471.778"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 565.414 143.539 L 652.751,143.539 C 664.81,143.539 674.586,152.494 674.586,163.539 C 674.586,174.585 664.81,183.539 652.751,183.539 L 565.414,183.539 C 553.356,183.539 543.58,174.585 543.58,163.539 C 543.58,152.494 553.356,143.539 565.414,143.539z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 565.414 143.539 L 652.751,143.539 C 664.81,143.539 674.586,152.494 674.586,163.539 C 674.586,174.585 664.81,183.539 652.751,183.539 L 565.414,183.539 C 553.356,183.539 543.58,174.585 543.58,163.539 C 543.58,152.494 553.356,143.539 565.414,143.539"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="609.083" y="167.539">
+      <tspan x="609.083" y="167.539">_Main</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="260" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="260" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554" y1="260" x2="554" y2="300"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="666" y1="260" x2="666" y2="300"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="284">
+      <tspan x="610" y="284">CLKs_Enables</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="320" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="320" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554" y1="320" x2="554" y2="360"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="666" y1="320" x2="666" y2="360"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="344">
+      <tspan x="610" y="344">LCD_InitNew</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="560" y="380" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="380" width="100" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="570" y1="380" x2="570" y2="420"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="650" y1="380" x2="650" y2="420"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="404">
+      <tspan x="610" y="404">_VarsInit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="440" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="440" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="554" y1="440" x2="554" y2="480"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="666" y1="440" x2="666" y2="480"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="464">
+      <tspan x="610" y="464">LED_Ctrl_Init</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="560" y="500" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="500" width="100" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="570" y1="500" x2="570" y2="540"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="650" y1="500" x2="650" y2="540"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="524">
+      <tspan x="610" y="524">ADC_Init</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="561" y="559" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="561" y="559" width="100" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="571" y1="559" x2="571" y2="599"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="651" y1="559" x2="651" y2="599"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="611" y="583">
+      <tspan x="611" y="583">PWM_Init</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="500.688" y="619" width="220" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500.688" y="619" width="220" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="522.688" y1="619" x2="522.688" y2="659"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="698.688" y1="619" x2="698.688" y2="659"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610.688" y="643">
+      <tspan x="610.688" y="643">InterrupRequest_Init</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1170.98" y="356.157" width="180" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1170.98" y="356.157" width="180" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1188.98" y1="356.157" x2="1188.98" y2="396.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1332.98" y1="356.157" x2="1332.98" y2="396.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260.98" y="380.157">
+      <tspan x="1260.98" y="380.157">SysTickUpdate</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1192.89" y="416.157" width="137.563" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1192.89" y="416.157" width="137.563" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1206.65" y1="416.157" x2="1206.65" y2="456.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1316.7" y1="416.157" x2="1316.7" y2="456.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1261.67" y="440.157">
+      <tspan x="1261.67" y="440.157">ADC_OnOffRead</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1192.89" y="476.157" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1192.89" y="476.157" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1206.89" y1="476.157" x2="1206.89" y2="516.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1318.89" y1="476.157" x2="1318.89" y2="516.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1262.89" y="500.157">
+      <tspan x="1262.89" y="500.157">LCD_Update</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1212.89" y="536.157" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1212.89" y="536.157" width="100" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1222.89" y1="536.157" x2="1222.89" y2="576.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1302.89" y1="536.157" x2="1302.89" y2="576.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1262.89" y="560.157">
+      <tspan x="1262.89" y="560.157">Kp_read</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1172.89" y="596.157" width="180" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1172.89" y="596.157" width="180" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1190.89" y1="596.157" x2="1190.89" y2="636.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1334.89" y1="596.157" x2="1334.89" y2="636.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1262.89" y="620.157">
+      <tspan x="1262.89" y="620.157">LEDs_Ctrl_Update</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1192.89" y="656.157" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1192.89" y="656.157" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1206.89" y1="656.157" x2="1206.89" y2="696.157"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1318.89" y1="656.157" x2="1318.89" y2="696.157"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1262.89" y="680.157">
+      <tspan x="1262.89" y="680.157">PWM_Update</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1262.89,696.157 1262.89,717.157 1032.89,717.157 1032.89,376.157 1166.51,376.157 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1158.75,381.157 1168.75,376.157 1158.75,371.157 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="300" x2="610" y2="315.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605,307.764 610,317.764 615,307.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="360" x2="610" y2="375.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605,367.764 610,377.764 615,367.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="420" x2="610" y2="435.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605,427.764 610,437.764 615,427.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="480" x2="610" y2="495.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605,487.764 610,497.764 615,487.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="540" x2="610" y2="555.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605,547.764 610,557.764 615,547.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="611" y1="599" x2="610.758" y2="614.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605.879,606.687 610.723,616.764 615.878,606.843 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1261.34" y1="397.134" x2="1261.59" y2="411.686"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1256.46,404.009 1261.63,413.921 1266.46,403.837 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1261.67" y1="456.157" x2="1262.62" y2="471.693"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1257.15,464.248 1262.75,473.925 1267.14,463.64 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1262.89" y1="516.157" x2="1262.89" y2="531.685"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1257.89,523.921 1262.89,533.921 1267.89,523.921 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1262.89" y1="576.157" x2="1262.89" y2="591.685"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1257.89,583.921 1262.89,593.921 1267.89,583.921 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1262.89" y1="636.157" x2="1262.89" y2="651.685"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1257.89,643.921 1262.89,653.921 1267.89,643.921 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="797" y1="467.778" x2="948.417" y2="468.25"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="940.638,473.226 950.653,468.257 940.669,463.226 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1175.68" y="200.371" width="169.533" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1175.68" y="200.371" width="169.533" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1192.64" y1="200.371" x2="1192.64" y2="240.371"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1328.26" y1="200.371" x2="1328.26" y2="240.371"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260.45" y="224.371">
+      <tspan x="1260.45" y="224.371">RPM_Max_Meas</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="609.083" y1="183.539" x2="608.571" y2="215.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.696,207.686 608.536,217.764 613.695,207.845 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1191.19" y="260.371" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1191.19" y="260.371" width="140" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1205.19" y1="260.371" x2="1205.19" y2="300.371"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.19" y1="260.371" x2="1317.19" y2="300.371"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1261.19" y="284.371">
+      <tspan x="1261.19" y="284.371">SysTick_Init</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260.84" y1="241.348" x2="1261.1" y2="255.9"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1255.96,248.229 1261.14,258.135 1265.96,248.045 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1261.19" y1="300.371" x2="1261" y2="351.685"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1256.03,343.903 1260.99,353.921 1266.03,343.939 "/>
+  </g>
+</svg>
